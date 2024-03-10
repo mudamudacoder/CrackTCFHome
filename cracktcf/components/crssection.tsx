@@ -24,9 +24,11 @@ const CRSSection: React.FC = () => {
         </div>
         <div className="mt-6">
           <p className="mb-6">Get an invitation to apply for Canadian Permanent Residency under the French Language Proficiency Category</p>
-          <button className="bg-orange-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full transition duration-300">
+          <a href='https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/submit-profile/rounds-invitations/category-based-selection.html'
+            target='_blank'
+          ><button className="bg-orange-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full transition duration-300">
             Learn More
-          </button>
+          </button></a>
         </div>
       </div>
     </div>

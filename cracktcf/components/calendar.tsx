@@ -1,22 +1,23 @@
 import React, { useEffect, useRef } from 'react';
 
 const Calendar = () => {
-  const calendlyRef = useRef(null);
+  const calendlyRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://assets.calendly.com/assets/external/widget.js';
-    script.async = true;
-    document.body.appendChild(script);
+    if (typeof window !== 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://assets.calendly.com/assets/external/widget.js';
+      script.async = true;
+      document.body.appendChild(script);
 
-    return () => {
-      document.body.removeChild(script);
+      return () => {
+        document.body.removeChild(script);
 
-      // Clear the Calendly widget from the container
-      if (calendlyRef.current) {
-        calendlyRef.current.innerHTML = '';
-      }
-    };
+        if (calendlyRef.current) {
+          calendlyRef.current.innerHTML = '';
+        }
+      };
+    }
   }, []);
 
   return (
@@ -24,7 +25,6 @@ const Calendar = () => {
       ref={calendlyRef}
       className="calendly-inline-widget min-w-[320px] h-[700px] bg-orange-200"
       data-url="https://calendly.com/cracktcftest/french-class-free-trial"
-      
     />
   );
 };

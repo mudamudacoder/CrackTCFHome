@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const WhatIs = () => {
@@ -22,18 +23,19 @@ const WhatIs = () => {
         <p className="text-lg mb-4">
           More information can be found at:
         </p>
-        <p className="text-lg  underline mb-4">
+        <a href='https://www.france-education-international.fr/en/test/tcf-canada?langue=en'><p className="text-lg  underline mb-4">
           TCF Canada
-        </p>
-        <p className="text-lg underline">
+        </p></a>
+        <a href='https://www.lefrancaisdesaffaires.fr/en/tests-diplomas/test-for-evaluating-french-tef/tef-canada/'><p className="text-lg underline">
           TEF Canada
-        </p>
-        <button className="mt-6 bg-white text-red-500 font-bold py-2 px-4 rounded-full hover:bg-red-700">
+        </p></a>
+        <a href='https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/permit/temporary/eligibility/francophone-immigration-express-entry.html'
+        target='_blank'><button className="mt-6 bg-white text-red-500 font-bold py-2 px-4 rounded-full hover:bg-red-700">
           Find out about French Language Proficiency requirements for IRCC
-        </button>
+        </button></a>
       </div>
       <div className="w-1/2">
-        <img src="write.png" alt="TCF/TEF Test" className="object-cover h-full w-full" />
+        <Image src="/write.png" alt="TCF/TEF Test" width={1200} height={400}className="object-cover h-full w-full" />
       </div>
     </div>
   );

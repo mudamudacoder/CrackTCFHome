@@ -33,9 +33,9 @@ const SignUpSection = () => {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <button className="bg-red-600 text-white font-bold py-2 px-8 rounded-full hover:bg-red-700">
+          <a href='/book'><button className="bg-red-600 text-white font-bold py-2 px-8 rounded-full hover:bg-red-700">
             Sign Up
-          </button>
+          </button></a>
         </div>
       </div>
     </div>

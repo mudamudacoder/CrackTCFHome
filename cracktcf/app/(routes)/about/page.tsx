@@ -20,12 +20,12 @@ const About: React.FC = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-2">What's in it for you?</h2>
+        <h2 className="text-2xl font-bold mb-2">What&lsquo;s in it for you?</h2>
         <p>
-          In a single phrase - ‘CLB 7 in French Proficiency’
+          In a single phrase - &apos;CLB 7 in French Proficiency&apos;
         </p>
         <p>
-          "Crack the TCF Canada" is an investment in your linguistic future. Enrolling in our programs provides you with the opportunity to receive top-notch education while preparing for TCF or TEF Canada exams, all while immersing yourself in language development. Our lessons go beyond typical examination coaching, emphasizing high-quality education, and we steadfastly adhere to the principle of academic excellence via our platform. This opens doors to endless possibilities in Canada, from obtaining landed immigrant status to becoming part of a bilingual workforce. Ultimately, you will embark on an educational journey that empowers you with linguistic abilities and cultural understanding essential for advancing in a French-speaking context.
+          &apos;Crack the TCF Canada&apos; is an investment in your linguistic future. Enrolling in our programs provides you with the opportunity to receive top-notch education while preparing for TCF or TEF Canada exams, all while immersing yourself in language development. Our lessons go beyond typical examination coaching, emphasizing high-quality education, and we steadfastly adhere to the principle of academic excellence via our platform. This opens doors to endless possibilities in Canada, from obtaining landed immigrant status to becoming part of a bilingual workforce. Ultimately, you will embark on an educational journey that empowers you with linguistic abilities and cultural understanding essential for advancing in a French-speaking context.
         </p>
       </section>
     </div>
