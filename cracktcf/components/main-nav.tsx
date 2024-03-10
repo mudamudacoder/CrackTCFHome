@@ -26,7 +26,13 @@ export function MainNav({
     {
         href: `/book`,
         label: 'Book a Class',
-        active: pathname === `/${params.storeId}/categories`,
+        active: pathname === `/book`,
+    },
+    {
+        href: `https://moodle.crackthetcfcanada.com/`,
+        label: 'Moodle',
+        active: pathname === `/moodle`,
+        target: '_blank'
     },
     
     
@@ -41,7 +47,7 @@ export function MainNav({
                     key={route.href}
                     href={route.href}
                     className={cn("text-sm font-medium transition-colors hover:text-orange-800 hover:scale-110",
-                        route.active ? "text-black " : "text-muted-foreground"
+                        route.active ? "text-orange-800" : "text-muted-foreground"
                     
                     )}>
                         {route.label}
