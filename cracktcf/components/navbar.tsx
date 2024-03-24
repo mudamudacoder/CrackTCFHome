@@ -11,7 +11,7 @@ const Navbar =  () => {
                     {/* Replace "Image" with your actual <img> tag */}
                     <Image src="/navLogo.png" alt="Your Logo" width={500} height={500} className="block size-80"/>
                 </div>
-                <div className="flex items-center space-x-4 px-4">
+                <div className="flex items-center space-x-4 px-2">
                     <a href="https://www.instagram.com/crackthetcfcanada/" target="_blank" rel="noopener noreferrer">
                         <Instagram />
                     </a>

@@ -42,7 +42,7 @@ const ContactUs: React.FC = () => {
     }
   };
   return (
-    <div className="flex justify-center items-center bg-orange-100 h-screen">
+    <div className="flex justify-center items-center bg-orange-100 h-screen text-lg">
       <div className="w-1/2 p-12">
         <h2 className="text-5xl font-bold mb-4">Contact Us</h2>
         <p className="mb-8">

@@ -15,7 +15,8 @@ const About: React.FC = () => {
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-2">What do we do?</h2>
         <p>
-          For us, our core purpose lies in providing rigorous training for individuals aspiring to attain their TCF (Test de Connaissance du Français) and TEF Canada (Test d'Évaluation de Français) certifications. Our curriculum is dynamic, structured, and refined through years of practice and research-oriented work. It involves an intensive study of the intricacies of the French language. With the guidance of our experienced instructors who employ proven academic learning methodologies, we strive to help learners grasp not only French grammar and vocabulary but also gain insights into the culture. Based on this foundation, through in-depth training and meticulous assessments, we equip our students for success in their language journey, preparing them for the linguistic competency required for various achievements, including Canadian Permanent Residency.
+          For us, our core purpose lies in providing rigorous training for individuals aspiring to attain their TCF (Test de Connaissance du Français) and TEF Canada (Test d'Évaluation de Français) certifications. Our curriculum is dynamic, structured, and refined through years of practice and research-oriented work. It involves an intensive study of the intricacies of the French language. With the guidance of our experienced
+           instructors who employ proven academic learning methodologies, we strive to help learners grasp not only French grammar and vocabulary but also gain insights into the culture. Based on this foundation, through in-depth training and meticulous assessments, we equip our students for success in their language journey, preparing them for the linguistic competency required for various achievements, including Canadian Permanent Residency.
         </p>
       </section>
 

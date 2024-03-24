@@ -30,7 +30,7 @@ const WhatIs = () => {
           TEF Canada
         </p></a>
         <a href='https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/permit/temporary/eligibility/francophone-immigration-express-entry.html'
-        target='_blank'><button className="mt-6 bg-white text-red-500 font-bold py-2 px-4 rounded-full hover:bg-red-700">
+        target='_blank'><button className="mt-6 bg-white text-red-500 font-bold py-2 px-4 rounded-full hover:bg-red-700 hover:text-white">
           Find out about French Language Proficiency requirements for IRCC
         </button></a>
       </div>

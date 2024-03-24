@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Urbanist } from 'next/font/google'
+import { Darker_Grotesque } from 'next/font/google'
 
-const font = Urbanist({ subsets: ['latin'] })
+const font = Darker_Grotesque({ subsets: ['latin-ext'] })
 
 export const metadata: Metadata = {
   title: 'Crack The TCF',
