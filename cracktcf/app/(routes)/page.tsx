@@ -1,5 +1,6 @@
 import ContactUs from '@/components/contact-us';
 import CRSSection from '@/components/crssection';
+import Reviews from '@/components/reviews';
 import SignUpSection from '@/components/sign-up';
 import WhatIs from '@/components/what-is';
 import React from 'react';
@@ -33,6 +34,7 @@ const HomePage = () => {
       <SignUpSection />
       <CRSSection />
       <WhatIs />
+      <Reviews />
       <ContactUs />
     </div>
   );
